@@ -1,8 +1,8 @@
 """
 Math and Variables Lab
-By: FIXME
+By: Chase Kalina-Wilson FIXME #fixed#
 CSCI 110 Lab
-Date: FIXME
+Date: 2/6/2024 FIXME #fixed#
  
 Read and solve: Add Two Numbers - https://open.kattis.com/problems/addtwonumbers 
  
@@ -26,14 +26,13 @@ def main1():
     a, b = line.split()
     # check to see if the data is split correctly
     print(f'{a=}, {b=}', file=sys.stderr)
-    # FIXME 2: convert string a into integer
+    # FIXME 2: convert string a into integer #fixed#
     a = int(a)
-    # FIXME 3: convert string b into integer
+    # FIXME 3: convert string b into integer #fixed#
     b = int(b)
-    # FIXME 4: add two numbers and store the result into ans variable
+    # FIXME 4: add two numbers and store the result into ans variable #fixed#
     ans = (a+b)
-    # FIXME 5: print the answer as shown in the sample output
+    # FIXME 5: print the answer as shown in the sample output #fixed#
     print(ans)
 
 main1()  # call main function
-

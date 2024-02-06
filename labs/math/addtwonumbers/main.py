@@ -16,10 +16,10 @@ Algorithm steps:
 import sys
 
 
-def main():
+def main1():
     """Main function that solves the problem
     """
-
+    
     # FIXME1 - read input data into a variable #fixed#
     line = input()
     # split the data into two numbers
@@ -27,9 +27,13 @@ def main():
     # check to see if the data is split correctly
     print(f'{a=}, {b=}', file=sys.stderr)
     # FIXME 2: convert string a into integer
+    a = int(a)
     # FIXME 3: convert string b into integer
+    b = int(b)
     # FIXME 4: add two numbers and store the result into ans variable
+    ans = (a+b)
     # FIXME 5: print the answer as shown in the sample output
+    print(ans)
 
+main1()  # call main function
 
-main()  # call main function

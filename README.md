@@ -30,17 +30,17 @@ ________________________________________________________________________________
 | Description: | "Math" |
 | Due Date: | 2/15/24 |
 | Status: | In Progress |
-| Location: | [[https://github.com/cchepko2/CS0-cchepko2/tree/main/labs/anscii_art](https://github.com/C-Kalina/CSCI-110L-Kalina/tree/Labs/labs/math/addtwonumbers)](https://github.com/C-Kalina/CSCI-110L-Kalina/tree/Labs/labs/math/addtwonumbers) |
+| Location: | [(https://github.com/C-Kalina/CSCI-110L-Kalina/tree/Labs/labs/math/addtwonumbers)](https://github.com/C-Kalina/CSCI-110L-Kalina/tree/Labs/labs/math/addtwonumbers) |
 | Notes: | In Progress|
 
-## Lab #1
+## Lab #3
 | Name | Value |
 | --- | --- |
-| Name: | ASCII Art |
-| Description: | "ANSCII Art" |
+| Name: | Functions |
+| Description: | "Functions" |
 | Due Date: | 2/7/23 |
 | Status: | In Progress |
-| Location: | https://github.com/cchepko2/CS0-cchepko2/tree/main/labs/anscii_art |
+| Location: | [https://github.com/cchepko2/CS0-cchepko2/tree/main/labs/anscii_art](https://github.com/C-Kalina/CSCI-110L-Kalina/blob/Labs/labs/functions/buka/main.py) |
 | Notes: | In Progress|
 
 ## Lab #1

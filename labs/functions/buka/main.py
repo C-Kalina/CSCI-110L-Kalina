@@ -1,40 +1,119 @@
-"""
-Built-in and Library Functions Lab
-Updated By: FIXME
-CSCI 110 Lab
-Date: FIXME
+###
+# Functions Lab
+# Updated By:Chase Kalina-wilson FIXME1 #FIXED#
+#
+# CSCI 110
+# Date:2/13/24 FIXME2 #FIXED#
+#
+# Playing with functions and variables scopes.
+# There are 10 FIXMEs each worth 10 points!
+###
 
-Solution to Kattis problem - Buka: https://open.kattis.com/problems/buka
+# assign Bill Gates to someName variable
+someName = "Bill Gates"  # someName is global variable
 
-Algorithm steps:
-  1. read the first line or 1st operand into a variable
-  3. read the 2nd line or operator into a variable
-  3. read the 3rd line or 2nd operand into a variable
-  4. concatenate the varialbes into a single string
-  5. use the built-in eval function on the concatenated string
-  6. print the result of the eval as the answer
-"""
-
-import sys
-
-# define a main function
+# FIXME3 - Assign your name to myName variable
+myName = "Chase Kalina-Wilson"
+# myName is a global variable
 
 
-def main():
-    """Main function that solves the problem
+def printHello():
     """
-    # read/input the first operand into A variable using sys library's readline() method
-    A = sys.stdin.readline().strip()
-    # let's check the value read...
-    print(f'{A=}', file=sys.stderr)
-    # FIXME3 - using sys library, read/input the 2nd line into operator variable
-    # FIXME4 - using sys library, read/input the 2nd operand into B variable
-    # FIXME5 - concatenate all three variables into a single variable called equation
-    # call eval(equation) and assign the return value or result into ans variable
-    ans = 'FIXME'  # FIXME6 - find the answer using eval function
-    # print the answer using sys library's stdout.write() method
-    sys.stdout.write(f'{ans}\n')
+    function that prints Hello World.
+    doesn't take any argument and doesn't return a value
+    """
+    print("Hello World!")
 
 
-# call main() funtion to execute it
-main()
+def printHelloTwice():
+    """
+    # function that prints Hello World twice
+    # calls printHello function twice
+    """
+    printHello()
+    printHello()
+
+
+def greetName(name):
+    """ 
+    function that takes one argument name and greets the name
+    """
+    print("Hi there {}".format(name))
+
+
+def meetAndGreet():
+    """
+    function that greets someone
+    doesn't take any argument and doesn't return any value
+    """
+    firstName = input("\nHey there! what's your first name?\n")
+    # firstName is local variable
+    greetName(firstName)  # call greetName function
+    print("My name is {}. Nice meeting you.".format(myName))
+    print()  # print empty line
+
+
+def convertTime(seconds):
+    """
+    #FIXME - #fixed#
+    Define a function named convertTime that takes 1 integer argument called seconds.
+    The function converts and prints the seconds in hours, minute, and seconds formats.
+    """
+    hour = seconds//3600
+    # seconds = seconds%3600
+    # seconds = seconds-hour*3600;
+    m = seconds//60
+    m = m % 60
+    sec = seconds % 60
+    #seconds = seconds - m*60
+    print("{} seconds = {} hours, {} minutes, {} seconds".format(seconds, hour, m, sec))
+
+
+def findSeconds(hours):
+    """
+    #FIXME - #fixed#
+    Define a function named findSeconds that takes hours as 1 integer argument.
+    The function converts hours into seconds and returns it
+    """
+    # FIXME4 convert hours into seconds and update seconds variable #fixed#
+    # Hint: there are 3600 seconds in 1 hour
+    seconds = hours*3600
+    return seconds
+
+
+def testFunctions():
+    # test1 : # for 1 hour == 3600 seconds
+    assert(findSeconds(1) == 3600)
+    # FIXME5 - write 3 more tests cases for findSeconds function #fixed#
+    assert(findSeconds(2) == 7200)
+    assert(findSeconds(3) == 10800)
+    assert(findSeconds(4) == 14400)
+    print('all test cases passed...')
+
+
+# FIXME6: call printHello function - #fixed#
+printHello()
+
+
+# FIXME7 - call printHelloTwice function #fixed#
+printHelloTwice()
+
+greetName(someName)  # calling function passing variable as argument
+greetName("Larry Page")  # calling function passing literal value as argument
+
+# call meetAndGreet function
+meetAndGreet()
+
+
+# call function convertTime passing proper argument
+convertTime(60)
+    
+
+# FIXME8 - Call converTime function passing 3600 as seconds #fixed#
+convertTime(3600)
+
+# FIXME9 - Call converTime function passing 3661 as seconds #fixed#
+convertTime(3661)
+
+# FIXME10 - Call testFunctions #fixed#
+testFunctions()

@@ -7,7 +7,7 @@
 | Instructor: | Corin Chepko |
 | Mav Username: | cckalina-wilso |
 | GitHub Username: | C-Kalina |
-| Repository | https://github.com/C-Kalina/CSCI-110L-Kalina |
+| Repository | [https://github.com/C-Kalina/CSCI-110L-Kalina](https://github.com/C-Kalina/CSO-110l-Kalina/tree/main) |
 
 _______________________________________________________________________________________________________________
 
@@ -38,16 +38,16 @@ ________________________________________________________________________________
 | --- | --- |
 | Name: | Functions |
 | Description: | "Functions" |
-| Due Date: | 2/7/23 |
+| Due Date: | 2/25/23 |
 | Status: | In Progress |
 | Location: | [https://github.com/cchepko2/CS0-cchepko2/tree/main/labs/anscii_art](https://github.com/C-Kalina/CSCI-110L-Kalina/blob/Labs/labs/functions/buka/main.py) |
 | Notes: | In Progress|
 
-## Lab #1
+## Lab #4
 | Name | Value |
 | --- | --- |
-| Name: | ASCII Art |
-| Description: | "ANSCII Art" |
+| Name: | Conditionals|
+| Description: | "Conditionals" |
 | Due Date: | 2/7/23 |
 | Status: | In Progress |
 | Location: | https://github.com/cchepko2/CS0-cchepko2/tree/main/labs/anscii_art |
